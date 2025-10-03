@@ -67,6 +67,20 @@ Every time an stratum job notification is received miner update its current work
 
 \*Affiliate links
 
+#### 🆕 Headless Mode (No Display Required)
+
+**NEW!** Run NerdMiner on any ESP32 WROOM/DevKit board without a display using web-based monitoring!
+
+- ✨ **Zero display hardware required** - Perfect for ESP32 DevKit boards
+- 🌐 **Web-based stats dashboard** - Monitor from any device on your network
+- 📊 **Real-time updates** - Auto-refreshing statistics every 5 seconds
+- 📱 **Mobile-friendly interface** - Works on phones, tablets, and computers
+- 🔧 **Serial monitoring** - Debug output and status via UART
+
+**PlatformIO Environment:** `ESP32-WROOM-headless`
+
+📖 **[Complete Headless Mode Documentation](HEADLESS_MODE.md)**
+
 ### Flash firmware
 
 #### microMiners Flashtool [Recommended]
