@@ -64,6 +64,10 @@ DisplayDriver *currentDisplayDriver = &t_hmiDisplayDriver;
 DisplayDriver *currentDisplayDriver = &sp_kcDisplayDriver;
 #endif
 
+#ifdef HEADLESS_DISPLAY
+DisplayDriver *currentDisplayDriver = &headlessDisplayDriver;
+#endif
+
 
 // Initialize the display
 void initDisplay()
